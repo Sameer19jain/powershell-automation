@@ -1,0 +1,1 @@
+﻿Get-WmiObject -List | Where-Object { $_.name -like "*network"}
